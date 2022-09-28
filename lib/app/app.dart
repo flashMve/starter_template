@@ -1,6 +1,6 @@
 import 'package:stacked/stacked_annotations.dart';
 import 'package:stacked_services/stacked_services.dart';
-import 'package:starter_template/services/counter_service.dart';
+import '../services/counter_service.dart';
 
 import '../ui/pages/home_page/home_page_view.dart';
 import '../ui/pages/splash_page/splash_page_view.dart';

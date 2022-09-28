@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:stacked/stacked.dart';
-import 'package:starter_template/resources/app_colors.dart';
-import 'package:starter_template/resources/strings.dart';
-import 'package:starter_template/resources/text_styles.dart';
-import 'package:starter_template/ui/base_page/base_page.dart';
-import 'package:starter_template/ui/pages/splash_page/splash_page_view_model.dart';
+import '../../../resources/app_colors.dart';
+import '../../../resources/strings.dart';
+import '../../../resources/text_styles.dart';
+import '../../../ui/base_page/base_page.dart';
+import '../../../ui/pages/splash_page/splash_page_view_model.dart';
 
 class SplashPageView extends BasePage<SplashPageViewModel> {
   const SplashPageView({Key? key}) : super(key: key);

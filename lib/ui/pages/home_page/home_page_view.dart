@@ -3,11 +3,11 @@ import 'package:flutter/services.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_hooks/stacked_hooks.dart';
-import 'package:starter_template/resources/app_colors.dart';
-import 'package:starter_template/resources/strings.dart';
-import 'package:starter_template/resources/text_styles.dart';
-import 'package:starter_template/ui/base_page/base_page.dart';
-import 'package:starter_template/ui/pages/home_page/home_page_view_model.dart';
+import '../../../resources/app_colors.dart';
+import '../../../resources/strings.dart';
+import '../../../resources/text_styles.dart';
+import '../../../ui/base_page/base_page.dart';
+import '../../../ui/pages/home_page/home_page_view_model.dart';
 
 class HomePageView extends BasePage<HomePageViewModel> {
   const HomePageView({Key? key}) : super(key: key);

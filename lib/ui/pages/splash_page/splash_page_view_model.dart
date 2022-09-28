@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:developer';
 
-import 'package:starter_template/app/app.router.dart';
-import 'package:starter_template/ui/base_page/base_page_view_model.dart';
+import '../../../app/app.router.dart';
+import '../../../ui/base_page/base_page_view_model.dart';
 
 class SplashPageViewModel extends BasePageViewModel {
   @override

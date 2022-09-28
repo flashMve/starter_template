@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:starter_template/app/app.locator.dart';
-import 'package:starter_template/ui/base_page/base_page_view_model.dart';
+import '../../../app/app.locator.dart';
+import '../../../ui/base_page/base_page_view_model.dart';
 
 import '../../../services/counter_service.dart';
 
